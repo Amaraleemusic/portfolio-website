@@ -562,6 +562,39 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			.imgWrapper{
+				width: 900px;
+				margin-top: 3rem;
+				display: flex;
+				justify-content: flex-end;
+			
+			}
+
+			.imgWrapper header{
+				margin-right: 3rem;
+				display: flex;
+				align-items: center;
+			}
+
+			.imgWrapper p{
+				color: gray;
+				font-size: 24px;
+			}
+
+			.innerWrapper{
+				display: flex;
+				flex-direction: column;
+			}
+
+			.innerWrapper h1{
+				margin-bottom: .5rem;
+			}
+
+
+			.cutie{
+				width: 45%;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1906,6 +1939,11 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		.greatidea {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			#wrapper {
@@ -1940,9 +1978,8 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
-		}
-
 /* Main */
+
 
 	#main {
 		position: relative;
@@ -1967,6 +2004,19 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.panel {
+			display: flex;
+			flex-direction: column;	
+
+		}
+
+		
+	
+
+		.lambda {
+			width: 100%;
+			padding-top: 30px;
+		}
 			#main > .panel.inactive {
 				opacity: 0;
 			}
@@ -2102,6 +2152,8 @@ input, select, textarea {
 						margin: 0.25em 0 0 0;
 					}
 
+					
+
 				@media screen and (max-width: 980px) {
 
 					#main > .panel.intro {
@@ -2190,3 +2242,4 @@ input, select, textarea {
 			}
 
 		}
+		
